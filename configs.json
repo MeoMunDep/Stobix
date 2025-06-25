@@ -1,1 +1,7 @@
+{
+  "delayEachAccount": [15, 18],
+  "timeToRestartAllAccounts": 43200,
+  "howManyAccountsRunInOneTime": 200,
+  "doTasks": true
+}
 
