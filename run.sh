@@ -29,5 +29,4 @@ fi
 [ ! -f privateKeys.txt ] && echo "# bot_data" > privateKeys.txt
 [ ! -f proxies.txt ] && echo "# proxies" > proxies.txt
 
-
 python3 meomundep.py
