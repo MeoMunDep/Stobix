@@ -201,7 +201,8 @@ services:
 
 ## Configuration
 
-### Required Files
+<details>
+<summary><strong>📂 Required Files</strong></summary>
 
 Ensure you have the following files in your folder:
 
@@ -211,19 +212,28 @@ Ensure you have the following files in your folder:
 - `proxies.txt` - List of proxies (optional)
 - `requirements.txt` - List of required packages
 
-### requirements.txt Content
+</details>
+
+<details>
+<summary><strong>📦 requirements.txt Content</strong></summary>
 
 ```txt
 aiohttp
-aiohttp-proxy
-fake-useragent
-eth-account
-eth-utils
+aiohttp_proxy
+beautifulsoup4
+base58
+cloudscraper
 colorama
-pyfiglet
+Cryptodome
+nacl
+solana
+web3
 ```
 
-### Configurations (configs.json)
+</details>
+
+<details>
+<summary><strong>⚙️ Configurations (configs.json)</strong></summary>
 
 Edit the `configs.json` file to customize the bot's behavior:
 
@@ -232,18 +242,23 @@ Edit the `configs.json` file to customize the bot's behavior:
   "delayEachAccount": [5, 8],
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 10,
-  "doTasks": true
+  "doTasks": true,
 }
 ```
 
-#### Configuration Parameters Table
+</details>
 
-| Field                         | Type             | Description                                                 | Example Value               |
-| ----------------------------- | ---------------- | ----------------------------------------------------------- | --------------------------- |
-| `delayEachAccount`            | Array [min, max] | Random delay range (in seconds) between processing accounts | `[5, 8]`                    |
-| `timeToRestartAllAccounts`    | Integer          | Time (in seconds) to wait before restarting all accounts    | `300`                       |
-| `howManyAccountsRunInOneTime` | Integer          | Number of accounts to run simultaneously                    | `10`                        |
-| `doTasks`                     | Boolean          | Enable automatic task execution                             | `true`                      |
+<details>
+<summary><strong>📊 Configuration Parameters Table</strong></summary>
+
+| Field                         | Type              | Description                                                 | Example Value               |
+| ----------------------------- | ----------------- | ----------------------------------------------------------- | --------------------------- |
+| `delayEachAccount`            | Array \[min, max] | Random delay range (in seconds) between processing accounts | `[5, 8]`                    |
+| `timeToRestartAllAccounts`    | Integer           | Time (in seconds) to wait before restarting all accounts    | `300`                       |
+| `howManyAccountsRunInOneTime` | Integer           | Number of accounts to run simultaneously                    | `10`                        |
+| `doTasks`                     | Boolean           | Enable automatic task execution                             | `true`                      |
+
+</details>
 
 ## ▶️ Running the Bot
 
