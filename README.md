@@ -332,7 +332,8 @@ chmod 600 configs.json privateKeys.txt proxies.txt meomundep.py
 
 </details>
 
-## privateKeys and Proxies
+<details>
+<summary><strong>📄 Private Keys and Proxies</strong></summary>
 
 - [Generate wallets here](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
 - This file contains user data in the following format:
@@ -358,6 +359,7 @@ socks5://user:password@host:port
 ```
 
 _Note: each row for each account_
+</details>
 
 ## Troubleshooting
 
