@@ -5,3 +5,4 @@ eth-account
 eth-utils
 colorama
 pyfiglet
+pycryptodome
